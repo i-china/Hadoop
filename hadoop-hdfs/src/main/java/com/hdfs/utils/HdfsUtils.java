@@ -126,6 +126,24 @@ public class HdfsUtils {
         return fileSystem.listFiles(new Path(path), recursive);
     }
 
+    /**
+     *   @Description: getFileBlockLocation 查看文件块信息
+     *   @param: [path 文件路径]
+     *   @return: org.apache.hadoop.fs.BlockLocation[] 块信息数组
+     */
+    public BlockLocation[] getFileBlockLocation(String path) throws Exception {
+        FileStatus fileStatus = fileSystem.getFileStatus(new Path(path));
+        return fileSystem.getFileBlockLocations(fileStatus, 0 , fileStatus.getLen());
+    }
+
+    /**
+     *   @Description: delete
+     *   @param: [path ：文件路径]
+     *   @return: boolean ：删除是否成功
+     */
+    public boolean delete(String path) throws Exception {
+        return fileSystem.delete(new Path(path),true);
+    }
 
     /**
      *   @Author: iFaithFreedom
@@ -150,5 +168,4 @@ public class HdfsUtils {
         }
         return null;
     }
-
 }
