@@ -1,1 +1,3 @@
 # Hadoop
+
+start hadoop
