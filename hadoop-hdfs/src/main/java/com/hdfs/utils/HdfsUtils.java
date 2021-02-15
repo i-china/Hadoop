@@ -2,10 +2,7 @@ package com.hdfs.utils;
 
 import com.sun.org.glassfish.gmbal.Description;
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.FSDataInputStream;
-import org.apache.hadoop.fs.FSDataOutputStream;
-import org.apache.hadoop.fs.FileSystem;
-import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.fs.*;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,6 +17,7 @@ import java.net.URISyntaxException;
  * @param
  **/
 // Hdfs 工具类
+
 
 public class HdfsUtils {
     private static final String HDFS_PATH = "hdfs://39.106.208.58:8020";
@@ -92,7 +90,40 @@ public class HdfsUtils {
         return fileSystem.rename(new Path(oldPath), new Path(newPath));
     }
 
-  
+    /**
+     *   @Author: iFaithFreedom
+     *   @Description: copyFromLocalFiles
+     *   @param: [localPath 本地文件路径, hdfsPath 存储到hdfs上的路径]
+     *   @return: void
+     *   @Date: 2021-02-15 21:28
+     */
+    public void copyFromLocalFiles(String localPath, String hdfsPath) throws Exception {
+         fileSystem.copyFromLocalFile(new Path(localPath), new Path(hdfsPath));
+    }
+
+    /**
+     *   @Author: iFaithFreedom
+     *   @Description: copyToLocalFile
+     *   @param: [hdfsPath ：hdfs的路径, localPath ：本地路径]
+     *   @return: void
+     *   @Date: 2021-02-15 21:36
+     */
+    public void copyToLocalFile(String hdfsPath, String localPath) throws Exception {
+        fileSystem.copyToLocalFile(new Path(hdfsPath), new Path(localPath));
+    }
+
+    /**
+     *   @Description: listFiles
+     *   @param: [path :目录路径]
+     *   @return: org.apache.hadoop.fs.FileStatus[] 文件信息的数组
+     */
+    public FileStatus[] listFiles(String path) throws Exception {
+        return fileSystem.listStatus(new Path(path));
+    }
+
+
+
+
     /**
      *   @Author: iFaithFreedom
      *   @Description: inputStreamToString
