@@ -2,8 +2,10 @@ package com.hdfs.practice;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Test;
 
 import java.io.IOException;
 import java.net.URI;
@@ -19,7 +21,11 @@ public class mkDir {
     private static final String HDFS_USER = "hdfs";
     private static FileSystem fileSystem;
 
-
+    /**
+     *   @Description: prepare
+     *   @param: [] 
+     *   @return: void
+     */
     @Before
     public void prepare() {
         try{
@@ -34,6 +40,17 @@ public class mkDir {
             e.printStackTrace();
         }
     }
+
+    /**
+     *   @Description: mkDir
+     *   @param: [] 
+     *   @return: void
+     */
+    @Test
+    public void mkDir() throws Exception {
+        fileSystem.mkdirs(new Path("/hdfs-api/test0/"));
+    }
+
 
     /**
      *   @Description: destory
