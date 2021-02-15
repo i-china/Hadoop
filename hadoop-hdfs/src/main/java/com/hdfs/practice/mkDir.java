@@ -35,7 +35,11 @@ public class mkDir {
         }
     }
 
-
+    /**
+     *   @Description: destory
+     *   @param: [] 
+     *   @return: void
+     */
     @After
     public void destory(){
         fileSystem = null;
