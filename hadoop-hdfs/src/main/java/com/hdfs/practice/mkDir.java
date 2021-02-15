@@ -42,7 +42,7 @@ public class mkDir {
     }
 
     /**
-     *   @Description: mkDir
+     *   @Description: mkDir 创建目录
      *   @param: [] 
      *   @return: void
      */
