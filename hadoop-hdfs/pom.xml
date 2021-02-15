@@ -2,25 +2,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Hadoop</artifactId>
+        <groupId>cn.bigdata.www</groupId>
+        <version>1.0.0</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.bigdata.www</groupId>
-    <artifactId>Hadoop</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0.0</version>
-    <modules>
-        <module>hadoop-hdfs</module>
-    </modules>
+    <artifactId>hadoop-hdfs</artifactId>
+
 
     <!--    基本属性-->
     <properties>
-<!--        设置默认编码-->
+        <!--        设置默认编码-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-<!--        设置版本号-->
+        <!--        设置版本号-->
         <hadoop.version>3.0.0</hadoop.version>
     </properties>
 
-<!--    配置 CDH 仓库地址-->
+    <!--    配置 CDH 仓库地址-->
     <repositories>
         <repository>
             <id>cloudera</id>
@@ -28,9 +28,9 @@
         </repository>
     </repositories>
 
-<!--    添加依赖-->
+    <!--    添加依赖-->
     <dependencies>
-<!--hadoop 客户端-->
+        <!--hadoop 客户端-->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-client</artifactId>
@@ -43,5 +43,7 @@
             <version>4.12</version>
         </dependency>
     </dependencies>
+
+
 
 </project>
