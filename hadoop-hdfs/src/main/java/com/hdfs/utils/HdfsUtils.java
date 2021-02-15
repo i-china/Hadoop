@@ -80,22 +80,18 @@ public class HdfsUtils {
     }
 
     /**
-     *   @Author: iFaithFreedom
      *   @Description: rename 文件重命名
      *   @param: [oldPath 旧文件地址, newPath 新文件地址]
      *   @return: boolean
-     *   @Date: 2021-02-15 21:15
      */
     public boolean rename(String oldPath, String newPath) throws Exception {
         return fileSystem.rename(new Path(oldPath), new Path(newPath));
     }
 
     /**
-     *   @Author: iFaithFreedom
-     *   @Description: copyFromLocalFiles
+     *   @Description: copyFromLocalFiles 上传文件到hdfs中
      *   @param: [localPath 本地文件路径, hdfsPath 存储到hdfs上的路径]
      *   @return: void
-     *   @Date: 2021-02-15 21:28
      */
     public void copyFromLocalFiles(String localPath, String hdfsPath) throws Exception {
          fileSystem.copyFromLocalFile(new Path(localPath), new Path(hdfsPath));
@@ -103,7 +99,7 @@ public class HdfsUtils {
 
     /**
      *   @Author: iFaithFreedom
-     *   @Description: copyToLocalFile
+     *   @Description: copyToLocalFile 从hdfs下载文件
      *   @param: [hdfsPath ：hdfs的路径, localPath ：本地路径]
      *   @return: void
      *   @Date: 2021-02-15 21:36
@@ -112,8 +108,8 @@ public class HdfsUtils {
         fileSystem.copyToLocalFile(new Path(hdfsPath), new Path(localPath));
     }
 
-    /**
-     *   @Description: listFiles
+    /**目录
+     *   @Description: listFiles 查询给定路径文件或目录的状态
      *   @param: [path :目录路径]
      *   @return: org.apache.hadoop.fs.FileStatus[] 文件信息的数组
      */
@@ -121,7 +117,14 @@ public class HdfsUtils {
         return fileSystem.listStatus(new Path(path));
     }
 
-
+    /**
+     *   @Description: listFilesRecursive 查询给定路径中文件的状态和快位置
+     *   @param: [path :目录或者文件路径, recursive：]
+     *   @return: org.apache.hadoop.fs.RemoteIterator<org.apache.hadoop.fs.LocatedFileStatus> :文件信息的数组
+     */
+    public RemoteIterator<LocatedFileStatus> listFilesRecursive(String path, boolean recursive) throws Exception {
+        return fileSystem.listFiles(new Path(path), recursive);
+    }
 
 
     /**
