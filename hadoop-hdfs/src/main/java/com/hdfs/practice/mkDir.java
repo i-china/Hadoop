@@ -2,6 +2,7 @@ package com.hdfs.practice;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
+import org.junit.After;
 import org.junit.Before;
 
 import java.io.IOException;
@@ -18,6 +19,7 @@ public class mkDir {
     private static final String HDFS_USER = "hdfs";
     private static FileSystem fileSystem;
 
+
     @Before
     public void prepare() {
         try{
@@ -33,4 +35,9 @@ public class mkDir {
         }
     }
 
+
+    @After
+    public void destory(){
+        fileSystem = null;
+    }
 }
