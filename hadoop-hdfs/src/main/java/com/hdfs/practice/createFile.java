@@ -18,7 +18,7 @@ import java.net.URISyntaxException;
  * @project Github
  */
 public class createFile {
-    private static final String HDFS_PATH = "hdfs://hzdatabase.cn:8020";
+    private static final String HDFS_PATH = "hdfs://ifaithfreedom.cn:8020";
     private static final String HDFS_USER = "hdfs";
     private static FileSystem fileSystem;
 
