@@ -1,10 +1,9 @@
 package com.hdfs.practice;
 
 import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FSDataOutputStream;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.fs.permission.FsAction;
-import org.apache.hadoop.fs.permission.FsPermission;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,17 +14,17 @@ import java.net.URISyntaxException;
 
 /**
  * @author Hale Lv
- * @created 2021-02-15 22:23
+ * @created 2021-02-16 11:04
  * @project Github
  */
-public class mkDir {
-    private static final String HDFS_PATH = "hdfs://39.106.208.58:8020";
+public class createFile {
+    private static final String HDFS_PATH = "hdfs://hzdatabase.cn:8020";
     private static final String HDFS_USER = "hdfs";
     private static FileSystem fileSystem;
 
     /**
      *   @Description: prepare
-     *   @param: [] 
+     *   @param: []
      *   @return: void
      */
     @Before
@@ -43,34 +42,25 @@ public class mkDir {
         }
     }
 
-    /**
-     *   @Description: mkDir 创建目录
-     *   @param: [] 
-     *   @return: void
-     */
-    @Test
-    public void mkDir() throws Exception {
-        fileSystem.mkdirs(new Path("/hdfs-api/test0/"));
-    }
-
 
     /**
-     *   @Description: mkDirWithPermission
+     *   @Description: create
      *   @param: []
      *   @return: void
      */
     @Test
-    public void mkDirWithPermission() throws Exception {
-        fileSystem.mkdirs(new Path("/hdfs-api/test1/"),new FsPermission(FsAction.READ_WRITE, FsAction.READ, FsAction.READ));
+    public void create() throws Exception {
+        FSDataOutputStream out = fileSystem.create(new Path("/hdfs-api/test/a.txt"));
     }
 
     /**
      *   @Description: destory
-     *   @param: [] 
+     *   @param: []
      *   @return: void
      */
     @After
     public void destory(){
         fileSystem = null;
     }
+
 }
