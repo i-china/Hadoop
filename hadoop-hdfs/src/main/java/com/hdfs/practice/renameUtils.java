@@ -1,11 +1,8 @@
 package com.hdfs.practice;
 
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.FSDataOutputStream;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.fs.permission.FsAction;
-import org.apache.hadoop.fs.permission.FsPermission;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,58 +13,61 @@ import java.net.URISyntaxException;
 
 /**
  * @author Hale Lv
- * @created 2021-02-15 22:23
+ * @created 2021-02-16 11:41
  * @project Github
  */
-public class mkDir {
-    private static final String HDFS_PATH = "hdfs://39.106.208.58:8020";
+public class renameUtils {
+    private static final String HDFS_PATH = "hdfs://ifaithfreedom.cn:8020";
     private static final String HDFS_USER = "hdfs";
     private static FileSystem fileSystem;
 
     /**
      *   @Description: prepare
-     *   @param: [] 
+     *   @param: []
      *   @return: void
      */
     @Before
-    public void prepare() {
-        try{
+    public void prepare(){
+        try {
             Configuration configuration = new Configuration();
             configuration.set("dfs.replication","3");
             fileSystem = FileSystem.get(new URI(HDFS_PATH), configuration, HDFS_USER);
-        }catch (IOException e){
+        } catch (IOException e){
             e.printStackTrace();
-        }catch (InterruptedException e){
+        } catch (InterruptedException e){
             e.printStackTrace();
-        }catch (URISyntaxException e){
+        } catch (URISyntaxException e){
             e.printStackTrace();
         }
     }
 
-    /**
-     *   @Description: mkDir 创建目录
-     *   @param: [] 
-     *   @return: void
-     */
-    @Test
-    public void mkDir() throws Exception {
-        fileSystem.mkdirs(new Path("/hdfs-api/test0/"));
-    }
 
 
     /**
-     *   @Description: mkDirWithPermission
+     *   @Description: mkdir
      *   @param: []
      *   @return: void
      */
     @Test
-    public void mkDirWithPermission() throws Exception {
-        fileSystem.mkdirs(new Path("/hdfs-api/test1/"),new FsPermission(FsAction.READ_WRITE, FsAction.READ, FsAction.READ));
+    public void mkdir() throws IOException {
+        fileSystem.mkdirs(new Path("/hdfs-api/test/api"));
+    }
+
+    /**
+     *   @Description: rename
+     *   @param: []
+     *   @return: void
+     */
+    @Test
+    public void rename() throws Exception {
+        Path oldPath = new Path("/hdfs-api/test/a.txt");
+        Path newPath = new Path("/hdfs-api/test/b.txt");
+        fileSystem.rename(oldPath, newPath);
     }
 
     /**
      *   @Description: destory
-     *   @param: [] 
+     *   @param: []
      *   @return: void
      */
     @After

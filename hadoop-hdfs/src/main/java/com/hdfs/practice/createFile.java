@@ -18,9 +18,9 @@ import java.net.URISyntaxException;
  * @project Github
  */
 public class createFile {
-    private static final String HDFS_PATH = "hdfs://ifaithfreedom.cn:8020";
-    private static final String HDFS_USER = "hdfs";
-    private static FileSystem fileSystem;
+    public static final String HDFS_PATH = "hdfs://bigdata003:8020";
+    public static final String HDFS_USER = "hdfs";
+    public static FileSystem fileSystem;
 
     /**
      *   @Description: prepare
@@ -31,7 +31,7 @@ public class createFile {
     public void prepare() {
         try{
             Configuration configuration = new Configuration();
-            configuration.set("dfs.replication","3");
+            configuration.set("dfs.replication","1");
             fileSystem = FileSystem.get(new URI(HDFS_PATH), configuration, HDFS_USER);
         }catch (IOException e){
             e.printStackTrace();
@@ -44,14 +44,35 @@ public class createFile {
 
 
     /**
+     *   @Description: mkdir
+     *   @param: []
+     *   @return: void
+     */
+    @Test
+    public void mkdir() throws Exception {
+        fileSystem.mkdirs(new Path("/hdfs-api/hadoop/"));
+    }
+
+
+    /**
      *   @Description: create
      *   @param: []
      *   @return: void
      */
     @Test
     public void create() throws Exception {
-        FSDataOutputStream out = fileSystem.create(new Path("/hdfs-api/test/a.txt"));
+        // 如果文件存在，默认会覆盖, 可以通过第二个参数进行控制。第三个参数可以控制使用缓冲区的大小
+        FSDataOutputStream out = fileSystem.create(new Path("/hdfs-api/test/a.txt"),
+                true, 4096);
+        out.write("hello hadoop!".getBytes());
+        out.write("hello spark!".getBytes());
+        out.write("hello flink!".getBytes());
+        // 强制将缓冲区中内容刷出
+        out.flush();
+        out.close();
     }
+
+
 
     /**
      *   @Description: destory
