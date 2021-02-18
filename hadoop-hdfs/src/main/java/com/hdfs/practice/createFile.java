@@ -72,6 +72,12 @@ public class createFile {
         out.close();
     }
 
+
+    /**
+     *   @Description: exists
+     *   @param: [] 
+     *   @return: void
+     */
     @Test
     public void exists() throws IOException {
         boolean exists = fileSystem.exists(new Path("/hdfs-test/"));
