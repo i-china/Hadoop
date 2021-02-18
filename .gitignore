@@ -5,6 +5,7 @@
 *.ipr
 *.iws
 *.sw?
+*.idea
 *~
 .#*
 .*.md.html
