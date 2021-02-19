@@ -12,6 +12,11 @@ import org.apache.spark.{SparkConf, SparkContext}
  * @ProjectName Hadoop
  */
 
+/**
+ *   @Description: 
+ *   @param:  
+ *   @return: 
+ */
 object WordCount {
   def main(args: Array[String]) {
 //    System.setProperty("hadoop.home.dir", "D:\\jdk\\hadoop-2.7.6")
