@@ -73,6 +73,12 @@ public class createFile {
     }
 
 
+    /**
+    @Test
+    public void exists() throws IOException {
+        boolean exists = fileSystem.exists(new Path("/hdfs-test/"));
+        System.out.println(exists);
+    }
 
     /**
      *   @Description: destory
