@@ -204,6 +204,7 @@
       <workItem from="1613826683137" duration="783000" />
       <workItem from="1613827475099" duration="633000" />
       <workItem from="1613828168659" duration="290000" />
+      <workItem from="1613829293487" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary=":fir: Update">
       <created>1613370529410</created>
@@ -408,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613828282484</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary=":sparkles:  Hadoop Hdfs readToString">
+      <created>1613829316678</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1613829316678</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,10 +484,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1032" y="183" key="#项目结构/0.0.1920.1050@0.0.1920.1050" timestamp="1613372169985" />
-    <state x="879" y="129" key="CommitChangelistDialog2" timestamp="1613828462857">
+    <state x="879" y="129" key="CommitChangelistDialog2" timestamp="1613829315634">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="879" y="129" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1613828462857" />
+    <state x="879" y="129" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1613829315634" />
     <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1613828257738">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -516,10 +524,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="386" y="197" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1613400709155" />
-    <state x="1032" y="257" key="Vcs.Push.Dialog.v2" timestamp="1613828466144">
+    <state x="1032" y="257" key="Vcs.Push.Dialog.v2" timestamp="1613829732543">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1032" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1613828466144" />
+    <state x="1032" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1613829732543" />
     <state x="1222" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613827481873">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
