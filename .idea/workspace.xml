@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f56ea619-83e7-4ba5-b637-ef4de8604bce" name="默认更改列表" comment=":sparkles:  Hadoop Hdfs readToString" />
+    <list default="true" id="f56ea619-83e7-4ba5-b637-ef4de8604bce" name="默认更改列表" comment=":sparkles:  Hadoop Hdfs readToString">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="cb410690-f340-42af-948c-d8ffd48c59c7" name="Revert &quot;:sparkles: delte directory&quot;" comment="Revert &quot;:sparkles: delte directory&quot;&#10;&#10;This reverts commit 667244c1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,6 +203,7 @@
       <workItem from="1613548719896" duration="2860000" />
       <workItem from="1613826683137" duration="783000" />
       <workItem from="1613827475099" duration="633000" />
+      <workItem from="1613828168659" duration="290000" />
     </task>
     <task id="LOCAL-00001" summary=":fir: Update">
       <created>1613370529410</created>
@@ -398,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613534978651</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary=":sparkles:  Hadoop Hdfs readToString">
+      <created>1613828282484</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1613828282484</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,10 +476,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1032" y="183" key="#项目结构/0.0.1920.1050@0.0.1920.1050" timestamp="1613372169985" />
-    <state x="879" y="129" key="CommitChangelistDialog2" timestamp="1613534977909">
+    <state x="879" y="129" key="CommitChangelistDialog2" timestamp="1613828281608">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="879" y="129" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1613534977909" />
+    <state x="879" y="129" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1613828281608" />
     <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1613828257738">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -506,10 +516,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="386" y="197" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1613400709155" />
-    <state x="1032" y="257" key="Vcs.Push.Dialog.v2" timestamp="1613534979796">
+    <state x="1032" y="257" key="Vcs.Push.Dialog.v2" timestamp="1613828284044">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1032" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1613534979796" />
+    <state x="1032" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1613828284044" />
     <state x="1222" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613827481873">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
