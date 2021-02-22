@@ -11,6 +11,7 @@
     <modules>
         <module>hadoop-hdfs</module>
         <module>mapReduce</module>
+        <module>Storm</module>
     </modules>
 
     <!--    基本属性-->
