@@ -12,6 +12,7 @@
         <module>hadoop-hdfs</module>
         <module>mapReduce</module>
         <module>Hive</module>
+        <module>Redis</module>
     </modules>
 
     <!--    基本属性-->

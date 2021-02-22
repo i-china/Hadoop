@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f56ea619-83e7-4ba5-b637-ef4de8604bce" name="默认更改列表" comment=":sparkles:  Hadoop MapReduce">
-      <change afterPath="$PROJECT_DIR$/Hive/pom.xml" afterDir="false" />
+    <list default="true" id="f56ea619-83e7-4ba5-b637-ef4de8604bce" name="默认更改列表" comment=":sparkles:  Hadoop Hive">
+      <change afterPath="$PROJECT_DIR$/Redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -206,7 +208,8 @@
       <workItem from="1613826683137" duration="783000" />
       <workItem from="1613827475099" duration="633000" />
       <workItem from="1613828168659" duration="290000" />
-      <workItem from="1613829293487" duration="3043000" />
+      <workItem from="1613829293487" duration="3750000" />
+      <workItem from="1613998281982" duration="705000" />
     </task>
     <task id="LOCAL-00001" summary=":fir: Update">
       <created>1613370529410</created>
@@ -432,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613864064036</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary=":sparkles:  Hadoop Hive">
+      <created>1613882928232</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1613882928232</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +463,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -481,7 +493,8 @@
     <MESSAGE value=":sparkles:  Hadoop Hdfs exists" />
     <MESSAGE value=":sparkles:  Hadoop Hdfs readToString" />
     <MESSAGE value=":sparkles:  Hadoop MapReduce" />
-    <option name="LAST_COMMIT_MESSAGE" value=":sparkles:  Hadoop MapReduce" />
+    <MESSAGE value=":sparkles:  Hadoop Hive" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles:  Hadoop Hive" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1104" y="228" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1613398579342">
@@ -512,10 +525,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1032" y="183" key="#项目结构/0.0.1920.1050@0.0.1920.1050" timestamp="1613372169985" />
-    <state x="879" y="129" key="CommitChangelistDialog2" timestamp="1613864063128">
+    <state x="879" y="129" key="CommitChangelistDialog2" timestamp="1613882927384">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="879" y="129" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1613864063128" />
+    <state x="879" y="129" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1613882927384" />
     <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1613828257738">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -552,18 +565,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="386" y="197" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1613400709155" />
-    <state x="1032" y="257" key="Vcs.Push.Dialog.v2" timestamp="1613866828827">
+    <state x="1032" y="257" key="Vcs.Push.Dialog.v2" timestamp="1613882933221">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1032" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1613866828827" />
+    <state x="1032" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1613882933221" />
     <state x="1222" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613827481873">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1222" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1613827481873" />
-    <state x="1154" y="315" key="git4idea.merge.GitPullDialog" timestamp="1613868506056">
+    <state x="1154" y="315" key="git4idea.merge.GitPullDialog" timestamp="1613998363921">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1154" y="315" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1613868506056" />
+    <state x="1154" y="315" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1613998363920" />
     <state x="1176" y="389" key="git4idea.rebase.GitRebaseDialog" timestamp="1613370325798">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -576,10 +589,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1065" y="371" key="git4idea.ui.GitUnstashDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1613827627706" />
-    <state x="661" y="218" key="new project wizard" timestamp="1613882908227">
+    <state x="661" y="218" key="new project wizard" timestamp="1614000505441">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="661" y="218" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1613882908227" />
+    <state x="661" y="218" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1614000505441" />
     <state x="1103" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1613537551129">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
