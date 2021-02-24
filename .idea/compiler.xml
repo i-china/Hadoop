@@ -14,6 +14,7 @@
       <module name="Github" target="1.5" />
       <module name="hadoop-hdfs" target="1.5" />
       <module name="mapreduce" target="1.5" />
+      <module name="Storm" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
