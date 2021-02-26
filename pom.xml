@@ -12,6 +12,7 @@
         <module>hadoop-hdfs</module>
         <module>mapReduce</module>
         <module>Spark-SQL</module>
+        <module>Dubbo</module>
     </modules>
 
     <!--    基本属性-->
