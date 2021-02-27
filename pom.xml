@@ -11,18 +11,16 @@
     <modules>
         <module>hadoop-hdfs</module>
         <module>mapReduce</module>
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         <module>Hive</module>
         <module>Redis</module>
-=======
+
         <module>Spark-SQL</module>
         <module>Dubbo</module>
->>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
-=======
+
         <module>Spark-SQL</module>
         <module>Dubbo</module>
->>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
+
     </modules>
 
     <!--    基本属性-->
