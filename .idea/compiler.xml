@@ -17,7 +17,11 @@
       <module name="hadoop-hdfs" target="1.5" />
       <module name="Hive" target="1.5" />
       <module name="mapreduce" target="1.5" />
+<<<<<<< HEAD
       <module name="Redis" target="1.5" />
+=======
+      <module name="Storm" target="1.5" />
+>>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
     </bytecodeTargetLevel>
   </component>
 </project>
