@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="f56ea619-83e7-4ba5-b637-ef4de8604bce" name="默认更改列表" comment=":sparkles:  Hadoop Hive">
       <change afterPath="$PROJECT_DIR$/Hive/src/main/java/jdbcDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
 =======
+=======
+>>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
     <list default="true" id="acf158d0-def9-4a23-8e1e-53fef2273417" name="Default Changelist" comment=":zap: hdfs">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
@@ -96,6 +99,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_5.xml" afterDir="false" />
+<<<<<<< HEAD
+>>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
+=======
 >>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -305,11 +311,16 @@
       <workItem from="1613827475099" duration="633000" />
       <workItem from="1613828168659" duration="290000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1613829293487" duration="3750000" />
       <workItem from="1613998281982" duration="705000" />
       <workItem from="1614349804313" duration="1088000" />
       <workItem from="1614383958440" duration="160000" />
       <workItem from="1614384127587" duration="3000" />
+=======
+      <workItem from="1613829293487" duration="535000" />
+      <workItem from="1614128636675" duration="609000" />
+>>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
 =======
       <workItem from="1613829293487" duration="535000" />
       <workItem from="1614128636675" duration="609000" />
@@ -533,6 +544,7 @@
       <updated>1613829744191</updated>
     </task>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <task id="LOCAL-00032" summary=":sparkles:  Hadoop MapReduce">
       <created>1613864064036</created>
       <option name="number" value="00032" />
@@ -558,6 +570,9 @@
 =======
     <option name="localTasksCounter" value="32" />
 >>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
+=======
+    <option name="localTasksCounter" value="32" />
+>>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,6 +589,7 @@
     </option>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -587,6 +603,8 @@
       </map>
     </option>
   </component>
+=======
+>>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
 =======
 >>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
   <component name="VcsManagerConfiguration">
@@ -611,9 +629,13 @@
     <MESSAGE value=":sparkles:  Hadoop Hdfs exists" />
     <MESSAGE value=":sparkles:  Hadoop Hdfs readToString" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <MESSAGE value=":sparkles:  Hadoop MapReduce" />
     <MESSAGE value=":sparkles:  Hadoop Hive" />
     <option name="LAST_COMMIT_MESSAGE" value=":sparkles:  Hadoop Hive" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles:  Hadoop Hdfs readToString" />
+>>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
 =======
     <option name="LAST_COMMIT_MESSAGE" value=":sparkles:  Hadoop Hdfs readToString" />
 >>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
@@ -648,6 +670,7 @@
     </state>
     <state x="1032" y="183" key="#项目结构/0.0.1920.1050@0.0.1920.1050" timestamp="1613372169985" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <state x="879" y="129" key="CommitChangelistDialog2" timestamp="1614383899699">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -656,6 +679,13 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1231" y="373" key="Gitee.CreatePullRequestDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1614383991108" />
+=======
+    <state x="563" y="0" key="CommitChangelistDialog2" timestamp="1614130624302">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="563" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1614130624302" />
+    <state x="879" y="129" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1613829743444" />
+>>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
 =======
     <state x="563" y="0" key="CommitChangelistDialog2" timestamp="1614130624302">
       <screen x="0" y="0" width="1366" height="738" />
@@ -700,6 +730,7 @@
     </state>
     <state x="386" y="197" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1613400709155" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <state x="1032" y="257" key="Vcs.Push.Dialog.v2" timestamp="1614383904131">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -710,10 +741,16 @@
     <state x="550" y="181" key="Vcs.Push.Dialog.v2" timestamp="1614130633438">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
+=======
+    <state x="550" y="181" key="Vcs.Push.Dialog.v2" timestamp="1614130633438">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+>>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
     <state x="550" y="181" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1614130633438" />
     <state x="1032" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1613829745902" />
     <state x="869" y="310" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613978571850">
       <screen x="0" y="0" width="1366" height="738" />
+<<<<<<< HEAD
 >>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
     </state>
     <state x="869" y="310" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1613978571850" />
@@ -724,6 +761,15 @@
     </state>
     <state x="1154" y="315" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1614385466306" />
 =======
+    <state x="1154" y="315" key="git4idea.merge.GitPullDialog" timestamp="1613827638647">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1154" y="315" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1613827638647" />
+>>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
+=======
+    </state>
+    <state x="869" y="310" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1613978571850" />
+    <state x="1222" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1613827481873" />
     <state x="1154" y="315" key="git4idea.merge.GitPullDialog" timestamp="1613827638647">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -742,6 +788,7 @@
     </state>
     <state x="1065" y="371" key="git4idea.ui.GitUnstashDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1613827627706" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <state x="661" y="218" key="new project wizard" timestamp="1614384018419">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -751,6 +798,11 @@
     <state x="115" y="127" key="new project wizard" timestamp="1614130582024">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
+=======
+    <state x="115" y="127" key="new project wizard" timestamp="1614130582024">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+>>>>>>> 16f8c574600a9733c985338a4c2e5433dfd7f2b3
     <state x="115" y="127" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1614130582024" />
     <state x="661" y="218" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1613372085076" />
     <state x="1103" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1613537551129">
