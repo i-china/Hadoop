@@ -13,19 +13,15 @@ import java.net.URISyntaxException;
 
 /**
  * @author Hale Lv
- * @created 2021-02-17 11:16
+ * @created 2021-02-17 12:35
  * @project Github
  */
-public class deleteUtils {
-    private static final String HDFS_PATH = "hdfs://39.106.208.58:8020";
+public class copyToLocalFile {
+
+    private static final String HDFS_PATH = "hdfs://ifaithfreedom.cn:8020";
     private static final String HDFS_USER = "hdfs";
     private static FileSystem fileSystem;
 
-    /**
-     *   @Description: prepare
-     *   @param: []
-     *   @return: void
-     */
     @Before
     public void prepare(){
         try{
@@ -41,23 +37,14 @@ public class deleteUtils {
         }
     }
 
-    /**
-     *   @Description: delete
-     *   @param: [] 
-     *   @return: void
-     */
     @Test
-    public void delete() throws Exception {
-        boolean result = fileSystem.delete(new Path("/hdfs-api/test/a.txt"),true);
-        System.out.println(result);
+    public void copyToLocalFile() throws IOException {
+        Path src = new Path("/ihive/log_text/log.data");
+        Path dst = new Path("E:\\");
+        fileSystem.copyToLocalFile(false,src,dst,true);
     }
 
 
-    /**
-     *   @Description: destory
-     *   @param: []
-     *   @return: void
-     */
     @After
     public void destory(){
         fileSystem = null;
