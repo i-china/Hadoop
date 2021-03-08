@@ -21,6 +21,7 @@
         <module>Spark-SQL</module>
         <module>Dubbo</module>
         <module>Redis</module>
+        <module>Hbase</module>
 
     </modules>
 
