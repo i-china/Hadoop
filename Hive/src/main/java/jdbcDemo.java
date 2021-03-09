@@ -10,9 +10,10 @@ import java.sql.Statement;
 public class jdbcDemo {
     /**
      *   @Description: main
-     *   @param: [args] 
+     *   @param: [args]
      *   @return: void
      */
+
     public static void main(String[] args) throws Exception  {
         Class.forName("com.mysql.jdbc.Driver");
         Connection conn = DriverManager.getConnection("jdbc:mysql://bigdata003/jdbc","root","halelv");
