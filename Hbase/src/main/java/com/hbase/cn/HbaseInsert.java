@@ -38,6 +38,11 @@ public class HbaseInsert {
 
     }
 
+    /**
+     *   @Description: createTable
+     *   @param: [] 
+     *   @return: void
+     */
     @Test
     public void createTable() throws IOException {
         if(admin.tableExists(tableName)){
@@ -51,6 +56,11 @@ public class HbaseInsert {
         admin.createTable(tableDescriptor);
     }
 
+    /**
+     *   @Description: testInsert
+     *   @param: [] 
+     *   @return: void
+     */
     @Test
     public void testInsert() throws InterruptedIOException, RetriesExhaustedWithDetailsException {
         Put put = new Put("1001".getBytes());
@@ -66,6 +76,11 @@ public class HbaseInsert {
         table.put(put);
     }
 
+    /**
+     *   @Description: testScan
+     *   @param: [] 
+     *   @return: void
+     */
     @Test
     public void testScan() throws IOException {
         Scan scan = new Scan();
@@ -86,12 +101,23 @@ public class HbaseInsert {
         scanner.close();
     }
 
+    /**
+     *   @Description: testGet
+     *   @param: [] 
+     *   @return: void
+     */
+    @Test
     public void testGet() throws IOException {
         Get get = new Get("1001".getBytes());
         Result result = table.get(get);
 //        printMsg(result);
     }
 
+    /**
+     *   @Description: destory
+     *   @param: [] 
+     *   @return: void
+     */
     @After
     public void destory() throws IOException {
         // 释放资源
