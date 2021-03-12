@@ -22,6 +22,7 @@
         <module>Dubbo</module>
         <module>Redis</module>
         <module>Hbase</module>
+        <module>Spark</module>
 
     </modules>
 
