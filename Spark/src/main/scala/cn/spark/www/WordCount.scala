@@ -24,7 +24,8 @@ object WordCount {
      *   @param: [args] 
      *   @return: void
      */
-    val lines = sc.textFile("C:\\Users\\iFaithFreedom\\IdeaProjects\\BigData\\GitHub\\hadoop\\Spark\\src\\main\\datas")
+    // val lines = sc.textFile("C:\\Users\\iFaithFreedom\\IdeaProjects\\BigData\\GitHub\\hadoop\\Spark\\src\\main\\datas")
+    val lines = sc.textFile("/datas")
 
     val words = lines.flatMap(_.split(" "))
 
